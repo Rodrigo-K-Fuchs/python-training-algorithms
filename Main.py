@@ -25,8 +25,10 @@
 
 
 import random
+from re import S
 
 class Node:
+
     #Creating node with his keys an left and right values
     def __init__(self, key):
         self.key = key
